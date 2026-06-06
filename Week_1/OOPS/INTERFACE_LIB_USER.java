@@ -61,7 +61,7 @@ class Adultuser implements INTERFACE_LIB_USER{
     }
     @Override
     public void requestBook(){
-        if(bookType.equals("Adult")){
+        if(bookType.equals("Fiction")){
             System.out.println( "Book Issued successfully, please return the book within 7 days" );
         }
         else{
